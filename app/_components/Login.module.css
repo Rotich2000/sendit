@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
+
+body {
+  position: relative;
+  background-color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+  font-family: "Sunflower", sans-serif;
+}
+
+/* Global */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container > h1#title {
+  padding-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#buttonSubmit {
+  width: 45%;
+  background: #196282;
+  color: #ffffff;
+  padding: 12px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 31px 136px;
+}
+
+#buttonSubmit:hover {
+  background: #78a5b8;
+  color: #ffffff;
+}
+
+.viewBtn {
+  height: 20px;
+  width: 100px;
+  margin: -20px -50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background: #ba7e0f;
+}
+
+.landingBtn {
+  width: 25%;
+  background: #fff;
+  color: #1f769d;
+  padding: 14px 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+.landingBtn:hover {
+  background: whitesmoke;
+  color: #1f769d;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.viewSubmit {
+  width: 28%;
+  background: #ba7e0f;
+  color: #ffffff;
+  /* padding: 3px 17px; */
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+#admin-details {
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 740px;
+}
+
+.white-login {
+  padding: 15px;
+  background: #fff;
+  color: #ffffff;
+  margin-bottom: 0px;
+  height: 600px;
+  margin: 0;
+}
+
+.whitee-login {
+  padding: 15px;
+  background: #fff;
+  color: #ffffff;
+  margin-bottom: 0px;
+  height: 530px;
+  margin: 0;
+}
+
+.dark-admin-details {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 800px;
+}
+
+.dark-user {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dark-admin {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 3px solid #ba7e0f;
+  height: 740px;
+}
+
+/* Header **/
+
+header {
+  background: #196282;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #fff 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header #highlight,
+nav .current {
+  color: #f65383;
+  font-weight: bold;
+}
+
+nav .display {
+  display: none;
+}
+
+header #trackerText {
+  font-size: 30px;
+}
+
+header #highlighter {
+  color: #f65383;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#highlighter {
+  color: #f65383;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Background Image */
+
+#backgroundImg {
+  min-height: 700px;
+  background: url("https://cdn.dribbble.com/users/666009/screenshots/2942765/town0001.png")
+    no-repeat 0;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+#backgroundImg h1 {
+  margin-top: 80px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#backgroundImg p {
+  font-size: 20px;
+}
+
+/* Boxes */
+
+#boxes {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Sidebar */
+
+section#request-bar {
+  width: 100%;
+}
+
+section#right-sidebar {
+  width: 50%;
+  float: right;
+}
+
+section > #admin-bar,
+#login-bar,
+#signup-bar {
+  width: 100%;
+}
+
+#settingsImage {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.userform {
+  width: 37%;
+  margin: -30px auto;
+  border: 1px solid grey;
+}
+
+#quoteTitle {
+  text-align: center;
+  margin-left: -21px;
+  color: #f65383;
+}
+
+.userform input,
+textarea,
+select {
+  width: 55%;
+  padding: 10px;
+  margin: 8px 106px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+footer {
+  clear: both;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  height: 3em;
+  padding: 1px;
+  color: #ffffff;
+  background-color: #196282;
+  text-align: center;
+  margin: 0;
+}
+
+/* Table CSS */
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #ba7e0f;
+}
+
+tr:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.eye-icon i {
+  text-decoration: none;
+  background: white;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.eye-icon a:hover {
+  text-decoration: none;
+  background: #ba7e0f;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #196282;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: lightblue;
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: rgb(238, 104, 104);
+}
+
+.button2:hover {
+  background-color: lightpink;
+}
+
+.button3 {
+  background-color: dark#ba7e0f;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #ba7e0f;
+  width: 420px;
+  height: 250px;
+  margin: 15px;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.signup-link a {
+  text-decoration: none;
+  color: #ba7e0f;
+  text-align: center;
+}
+
+.signup-link p {
+  text-align: center;
+}
+
+#border-box {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid#878b87;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+#pending {
+  background: lightblue;
+  color: black;
+  padding: 5px;
+}
+
+.status-color {
+  color: #ba7e0f;
+}
+
+textarea {
+  resize: none;
+}
+
+.flex-user-container > div {
+  background-color: #ba7e0f;
+  width: 100%;
+  height: 240px;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.col-container {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+  margin: 20px;
+  height: 100px;
+  color: white;
+  border-radius: 30px;
+}
+
+.dashboard {
+  margin: 0 100px 0 100px;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #196282 !important;
+  color: white;
+}
+
+tr:hover {
+  background-color: #ffffff;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 2px solid grey;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+  padding-right: 30px;
+}
+
+#textbox {
+  clear: both;
+}
+
+.view-button {
+  width: 50%;
+  background: #196282;
+  color: #ffffff;
+  padding: 14px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 31px 123px;
+}
+
+.showDetails {
+  border-radius: 5px;
+}
+
+.showDetails:hover {
+  cursor: pointer;
+  background: #196282;
+  color: white;
+}
+
+.allparcels {
+  color: #196282;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1.allparcels,
+h1.processing,
+h1.delivered,
+h1.declined,
+h1.available {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.processing {
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.available {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.delivered {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.declined {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.detailContainer {
+  margin: auto;
+  width: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.white-bg {
+  background: white;
+}
+
+#addIcon {
+  text-decoration: none;
+  color: #f65383;
+}
+
+#addIcon:hover {
+  text-decoration: none;
+  color: #f17a9e;
+}
+
+#clearAlignment {
+  clear: both;
+}
+
+#tableContainer {
+  overflow-x: auto;
+}
+
+.detailsForm {
+  color: black;
+  text-align: center;
+}
+
+.select-button {
+  width: 120px;
+  padding: 5px;
+  margin: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
